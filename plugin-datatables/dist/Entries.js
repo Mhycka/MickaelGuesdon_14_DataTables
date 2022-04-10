@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserContext} from './DataTables'
+import { UserContext} from './App'
 
 
 /**ShowEntries change the number of row displayed in the table
