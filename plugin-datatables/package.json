@@ -1,5 +1,5 @@
 {
-  "name": "plugin-datatables",
+  "name": "plugin-datatable",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
