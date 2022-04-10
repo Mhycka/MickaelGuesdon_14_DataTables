@@ -1,10 +1,10 @@
 import React,{useState} from 'react'
 import './App.scss';
-import RowTr from './Components/row';
-import ShowEntries from './Components/Entries';
-import DataTableFooter from './Components/footer';
-import DataTableHead from './Components/Header';
-import DataTableSearch from './Components/Search';
+import RowTr from '../Components/row';
+import ShowEntries from '../Components/Entries';
+import DataTableFooter from '../Components/footer';
+import DataTableHead from '../Components/Header';
+import DataTableSearch from '../Components/Search';
 
 export const UserContext = React.createContext();
 

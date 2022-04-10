@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
-import { SortUp } from '../Media/sortUp'
-import { SortDown } from '../Media/sortDown'
+import { SortUp } from '../lib/Media/sortUp'
+import { SortDown } from '../lib/Media/sortDown'
 import { UserContext} from '../App'
 
 

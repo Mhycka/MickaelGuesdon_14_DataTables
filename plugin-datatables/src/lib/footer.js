@@ -1,8 +1,8 @@
 import React,{useState,useEffect} from 'react'
-import { DoubleArrowLeft } from '../Media/arrowLeftDouble'
-import { DoubleArrowRight } from '../Media/arrowRightDouble'
-import { ArrowRight } from '../Media/arrowRight'
-import { ArrowLeft } from '../Media/arrowLeft'
+import { DoubleArrowLeft } from '../lib/Media/arrowLeftDouble'
+import { DoubleArrowRight } from '../lib/Media/arrowRightDouble'
+import { ArrowRight } from '../lib/Media/arrowRight'
+import { ArrowLeft } from '../lib/Media/arrowLeft'
 import { UserContext} from '../App'
 
 /** Table Footer */
