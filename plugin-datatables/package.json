@@ -1,6 +1,6 @@
 {
   "name": "plugin-datatable",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "private": false,
   "babel": {
     "presets": [
@@ -12,8 +12,8 @@
       ]
     ]
   },
-  "main": "dist/DataTables.js",
-  "module": "dist/DataTables.js",
+  "main": "dist/App.js",
+  "module": "dist/App.js",
   "files": [
     "dist",
     "README.md"
@@ -30,6 +30,7 @@
   "license": "ISC",
   "homepage": "https://github.com/Mhycka/MickaelGuesdon_14_DataTables",
   "dependencies": {
+    "publish": "^0.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -62,6 +63,9 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
-    "@babel/preset-react": "^7.16.0"
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "webpack": "^4.44.2"
   }
 }
